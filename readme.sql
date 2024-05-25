@@ -51,4 +51,3 @@ SELECT SUM(transactions.sales_amount) FROM transactions INNER JOIN date on trans
 where date.year =2020 and date.month_name = "January"
 and (currency = 'INR\r' or currency = "USD\r");
 
--- https://app.powerbi.com/links/CxjZVOUFMf?ctid=cf87d705-23dc-4ae8-a866-47fb4924fa7a&pbi_source=linkShare
